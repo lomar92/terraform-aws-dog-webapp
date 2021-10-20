@@ -1,0 +1,25 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# .tfvars files
+*.tfvars
+
+# no creds
+*.pem
+*.key
+id_rsa.pub
+id_rsa
+id_dsa.pub
+id_dsa
+
+# terraformrc file
+terraform.rc
+.terraformrc
+
+# Crash log files
+crash.log

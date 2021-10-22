@@ -1,7 +1,6 @@
 
 # Variables File
 
-
 variable "prefix" {
   description = "This prefix will be included in the name of most resources. Prod, Dev, QA"
 }
@@ -12,7 +11,7 @@ variable "region" {
 
 variable "AMI" {
   description = "The Packer Image for your WebApp."
-  default = "ami-09399ab07dc45568b"
+  default     = "ami-09399ab07dc45568b"
 }
 
 variable "address_space" {

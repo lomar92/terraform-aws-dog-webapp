@@ -1,6 +1,3 @@
-provider "aws" {
-  region = var.region
-}
 
 resource "aws_vpc" "DogoAL" {
   cidr_block           = var.address_space

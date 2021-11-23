@@ -10,8 +10,7 @@ variable "region" {
 }
 
 variable "AMI" {
-  description = "The Packer Image for your WebApp."
-  default     = "ami-09399ab07dc45568b"
+  description = "The Packer Image for your WebApp. Check Readme."
 }
 
 variable "address_space" {
